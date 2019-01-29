@@ -6,8 +6,11 @@
 </head>
 <body>
   <script>
-      const square = (x) => { return x * x };
-      console.log(square(5));
+      const numbers = [1, 2, 3, 4, 5];
+      const doubled = numbers.map((number) => {
+          return number * 2 
+      });
+      console.log(doubled); // [2, 4, 6, 8, 10]
   </script>
 </body>
 </html>
